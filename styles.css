@@ -1,0 +1,76 @@
+:root {
+  --primary-color: dimgray;
+  --secondary-color: gray;
+}
+
+.container {
+  background-color: var(--primary-color);
+  margin: 2rem;
+  text-align: center;
+  padding: 1px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.heading {
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+.navbar {
+  background-color: var(--secondary-color);
+  margin: 2rem;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.navbar .list-item {
+  display: inline;
+  padding: 0 3rem;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.navbar .list-item .link {
+  color: white;
+  font-size: 1.4rem;
+}
+
+.container-outline {
+  border: 2px solid lightgray;
+  margin: 2rem;
+}
+
+.container-outline h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.container-outline p {
+  font-size: 1.4rem;
+  padding-left: 2rem;
+}
+
+.container-outline .list-style-none {
+  margin: 2rem 0;
+}
+
+.container-outline .list-style-none li {
+  font-size: 1.4rem;
+  border-bottom: 1px solid lightgray;
+  padding: 0.8rem 0;
+}
